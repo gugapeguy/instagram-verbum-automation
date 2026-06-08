@@ -74,15 +74,26 @@ Nenhum fundo branco nos slides do Instagram. Sempre em tons de azul-marinho.
 
 ## 4. Logo
 
-**Arquivo oficial:** `branding/logo-definitiva.png`  
-Fonte: `G:\Drives compartilhados\Clientes_V\VERBUM CONTABILIDADE\LOGOMARCA\LOGO DEFINITIVA.png`
+### Variantes disponíveis (usar sempre a variante certa — nunca adaptar com gambiarras)
 
-| Situação | Arquivo | Tratamento |
+| Arquivo | Fundo próprio | Usar quando |
 |---|---|---|
-| Fundo escuro — destaque (ex: Slide 1 de apresentação) | `logo-definitiva.png` | Container branco, border-radius 12px, padding generoso, box-shadow |
-| Fundo escuro — discreto (slides 2, 3+) | `logo-definitiva.png` | Container branco pequeno, border-radius 6px, padding mínimo, canto superior direito |
-| Fundo claro ou neutro | `logo-definitiva.png` | Direto, sem container |
-| Tamanho mínimo | — | 120px de largura |
+| `verbum-logo-fundo-escuro.png` | Charcoal escuro com círculos decorativos | Slides dark (navy) — usar diretamente, sem container branco |
+| `verbum-logo-navy-chip.png` | Navy com card branco interno | Chip compacto sobre fundo navy — uso como elemento inline ou pequeno |
+| `verbum-logo-transparente.png` | Transparente (fundo branco aparente) | Fundos muito claros ou brancos |
+| `verbum-logo-fundo-branco.png` | Branco puro | Fundos cream, areia ou qualquer fundo claro |
+| `logo-definitiva.png` | Branco puro | Reservado para web e documentos impressos |
+
+### Regra de uso nos slides Instagram
+
+| Contexto | Arquivo | Tratamento CSS |
+|---|---|---|
+| Slide dark — logo grande (Slide 1) | `verbum-logo-fundo-escuro.png` | `border-radius: 12px; overflow: hidden` — sem container adicional |
+| Slide dark — logo média (Slide 3) | `verbum-logo-fundo-escuro.png` | `border-radius: 10px; overflow: hidden` — sem container adicional |
+| Slide claro — logo discreta (rodapé) | `verbum-logo-fundo-branco.png` | Direto, opacity 0.50, canto inferior direito |
+| Slide claro — logo média | `verbum-logo-transparente.png` | Direto, sem container |
+
+**Tamanho mínimo:** 120px de largura em qualquer uso.
 
 **Logomarcas descartadas — nunca usar:**
 - `verbum-logo.png` (raiz do usuário) — versão flat dourada, não é a logo oficial
