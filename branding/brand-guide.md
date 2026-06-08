@@ -74,14 +74,19 @@ Nenhum fundo branco nos slides do Instagram. Sempre em tons de azul-marinho.
 
 ## 4. Logo
 
+**Arquivo oficial:** `branding/logo-definitiva.png`  
+Fonte: `G:\Drives compartilhados\Clientes_V\VERBUM CONTABILIDADE\LOGOMARCA\LOGO DEFINITIVA.png`
+
 | Situação | Arquivo | Tratamento |
 |---|---|---|
-| Fundo escuro (padrão Instagram) | `logo-sem-fundo.png` | Direto sobre navy, sem container |
-| Fundo claro ou neutro | `logo-oficial.png` | Container branco com padding e border-radius |
+| Fundo escuro — destaque (ex: Slide 1 de apresentação) | `logo-definitiva.png` | Container branco, border-radius 12px, padding generoso, box-shadow |
+| Fundo escuro — discreto (slides 2, 3+) | `logo-definitiva.png` | Container branco pequeno, border-radius 6px, padding mínimo, canto superior direito |
+| Fundo claro ou neutro | `logo-definitiva.png` | Direto, sem container |
 | Tamanho mínimo | — | 120px de largura |
 
-**Localização dos arquivos:**  
-`C:\Users\gugap\Documents\GitHub\verbum-site\verbum-assets\`
+**Logomarcas descartadas — nunca usar:**
+- `verbum-logo.png` (raiz do usuário) — versão flat dourada, não é a logo oficial
+- `logo-sem-fundo.png` — versão desatualizada
 
 ---
 
