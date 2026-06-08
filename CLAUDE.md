@@ -81,12 +81,15 @@ Para aprovar: aprovado · [horário] · [A ou B]
 
 1. Nenhum agente encerra sem entregar um artefato completo ao próximo.
 2. Gustavo é acionado uma única vez por fluxo — no pacote de aprovação.
-3. CEO Criativo sempre entrega A e B. Sem exceção.
+3. CEO Criativo sempre entrega A (HTML/Claude) e B (prompt Canva manual). Sem exceção.
 4. CEO Operações só age após "aprovado" + horário explícito.
 5. Erros são resolvidos internamente. Gustavo recebe resultado, nunca problema.
 6. Todo copy passa pelo skill `humanizer` antes de entrar no pacote.
 7. Toda entrega segue `branding/brand-guide.md` sem exceção.
-8. Maria Clara é a única porta-voz do @verbumcontabilidade.
+8. Maria Clara só aparece quando o avatar estiver finalizado e aprovado por Gustavo.
+9. A logomarca é obrigatória em todos os slides e criativos. O destaque e posicionamento dela são definidos pelo contexto do criativo — não há regra fixa de posição.
+10. CEO Criativo usa HTML/CSS via Claude como ferramenta principal. Canva MCP descartado.
+11. CEO Conteúdo deve entender o tom emocional do brief — não apenas o conteúdo literal.
 
 ---
 
