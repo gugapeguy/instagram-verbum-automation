@@ -112,17 +112,11 @@ Nenhum fundo branco nos slides do Instagram. Sempre em tons de azul-marinho.
 
 ---
 
-## 7. Decisão Pendente — Tipografia Unificada
+## 7. Tipografia — Decisão do CEO Master (08/06/2026)
 
-**Situação:** O site usa Playfair Display + Lato (aprovado pelo Gustavo em 02/06/2026).  
-Os templates de Instagram usam Cormorant Garamond + Outfit (criados depois).
+**Cormorant Garamond + Outfit para Instagram.** Funciona melhor em telas móveis, tem caráter editorial e premium compatível com a marca. Playfair Display + Lato permanece exclusivo do site institucional.
 
-**Opções:**
-- **A)** Manter separado: Cormorant Garamond + Outfit para Instagram / Playfair + Lato para web
-- **B)** Unificar tudo em Cormorant Garamond + Outfit (mais elegante, funciona melhor em telas menores)
-- **C)** Unificar tudo em Playfair Display + Lato (consistência com o site já aprovado)
-
-**Recomendação:** Opção A — mídias diferentes pedem adaptações tipográficas diferentes.
+Todos os templates de Instagram devem usar apenas Cormorant Garamond + Outfit. Não misturar.
 
 ---
 
