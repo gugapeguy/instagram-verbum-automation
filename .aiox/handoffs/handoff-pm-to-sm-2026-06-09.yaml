@@ -1,0 +1,52 @@
+handoff:
+  from_agent: pm
+  to_agent: sm
+  date: "2026-06-09"
+  consumed: true
+  consumed_at: "2026-06-09"
+  consumed_by: "River (SM)"
+
+  story_context:
+    active_prd: "docs/prd/verbum-instagram-prd-v2.md"
+    project: "@verbumcontabilidade — Instagram Automation v2.0"
+    branch: main
+
+  mission: |
+    Criar as stories detalhadas dos Épicos 1 e 2 (ambos P0).
+    Épico 1 é bloqueador — deve ter stories prontas primeiro.
+
+  epics:
+    - id: epic-01
+      path: "docs/stories/epics/epic-01-inteligencia-legislativa/EPIC.md"
+      stories_to_create:
+        - "1.1 — Base de Conhecimento Legislativo"
+        - "1.2 — Monitor de Atualizações via Web Search"
+        - "1.3 — Injeção Manual + Sugestão de Pauta Semanal"
+      sequencia: obrigatória (1.1 → 1.2 → 1.3)
+
+    - id: epic-02
+      path: "docs/stories/epics/epic-02-pipeline-conteudo/EPIC.md"
+      stories_to_create:
+        - "2.1 — Skill de Domínio Contábil"
+        - "2.2 — CEO Conteúdo com Domínio Legislativo"
+        - "2.3 — Calendário Editorial e Agenda Fiscal"
+        - "2.4 — Pacote de Aprovação Canônico"
+      sequencia: "2.1 e 2.3 paralelas; 2.2 depende de 2.1 + E1-1.2; 2.4 depende de 2.2 + 2.3"
+
+  decisions:
+    - "Épico 1 é hard bloqueador de Épico 2 (especificamente Story 2.2 depende de E1-1.2)"
+    - "Executor padrão de todas as stories: @dev"
+    - "Quality gate padrão: @architect"
+    - "Gustavo não pode aparecer — Maria Clara é a porta-voz exclusiva"
+    - "Todo copy obrigatoriamente passa pelo humanizer"
+
+  references:
+    - "branding/brand-guide.md — paleta, tipografia, pilares, regras de comunicação"
+    - "roteiros/01-apresentacao-maria-clara.md — referência de voz de Maria Clara"
+    - "skills/humanizer.md — skill obrigatório no pipeline"
+    - "docs/superpowers/specs/2026-06-08-reestruturacao-organizacional-design.md — arquitetura organizacional"
+
+  next_action: |
+    @sm: Ler os dois arquivos EPIC.md e criar as stories em
+    docs/stories/epics/epic-01-*/  e  docs/stories/epics/epic-02-*/
+    Épico 1 primeiro. Usar formato padrão do AIOX para stories.
